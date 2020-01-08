@@ -1,8 +1,8 @@
-export PYTHONPATH="${HOME}/StreamlitApp:$PYTHONPATH"
+export PYTHONPATH="/home/StreamlitApp:$PYTHONPATH"
 # enable nbserverproxy
 jupyter serverextension enable --sys-prefix nbserverproxy
 # streamlit launches at startup
 mv streamlit_call.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 # enable bokeh extension
 jupyter serverextension enable --sys-prefix streamlit_call
-cd ${REPO_DIR}/StreamlitApp
+cd /home/StreamlitApp
