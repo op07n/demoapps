@@ -5,4 +5,4 @@ jupyter serverextension enable --sys-prefix nbserverproxy
 mv streamlit_call.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 # enable bokeh extension
 jupyter serverextension enable --sys-prefix streamlit_call
-cd ${HOME}/StreamlitApp
+cd ${REPO_DIR}/StreamlitApp
