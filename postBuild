@@ -1,4 +1,4 @@
-  
+export PYTHONPATH="StreamlitApp:$PYTHONPATH"  
 # enable nbserverproxy
 jupyter serverextension enable --sys-prefix nbserverproxy
 # streamlit launches at startup
